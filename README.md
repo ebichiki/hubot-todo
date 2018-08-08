@@ -29,6 +29,17 @@ Then you can interact with hubot-todo by typing `hubot-todo help`.
     ボット名 list       - TODO の一覧表示
     ボット名 todo       - TODO を作成
 
+### Example
+
+    hubot-todo> hubot-todo todo 鉛筆を買う
+    hubot-todo> 追加しました： 鉛筆を買う
+
+    hubot-todo> hubot-todo list
+    hubot-todo> 鉛筆を買う
+
+    hubot-todo> hubot-todo done 鉛筆を買う
+    hubot-todo> 完了しました： 鉛筆を買う
+    
 ### Configuration
 
 A few scripts (including some installed by default) require environment
